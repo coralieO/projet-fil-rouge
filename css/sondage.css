@@ -1,4 +1,11 @@
 /* version mobile */
+#popup{
+    display: block;
+    position: relative;
+}
+.sond{
+    position: fixed ;
+}
 main{
     padding-top: 30px;
 }
@@ -15,6 +22,11 @@ main h1{
     margin: 0 auto 18px;
   
 }
+#popupForm{
+    height: 20vh;
+    width: 50%;
+    display: block;
+}
 section {
     padding-top: 20px;
     height: 80vh;
@@ -24,8 +36,14 @@ section {
     margin: 0 auto;
     border-radius: 39px;
     border: white solid 1px;
+    visibility: visible;
 }
 
+#points {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
 .quizz_a{
     height: 33vh;
 }
@@ -40,14 +58,14 @@ section {
     justify-content: space-around;
     margin: 20px auto 0px;
 }
-.réponse div {
-    height: 20vh;
-    width: 45%;
+#repA, #repB {
+    margin-right: 10px;
     background-color: white;
     border: black solid 2px;
     border-radius: 45px 45px;
     cursor: pointer;
 }
+
 .envoi input{
     background-color: white;
     border: solid 1.8px black;
